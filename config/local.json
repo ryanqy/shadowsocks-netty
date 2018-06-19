@@ -1,0 +1,31 @@
+{
+  "configs": [
+    {
+      "method": "rc4-md5",
+      "password": "123.123.123",
+      "remarks": "",
+      "server": "jp.b.cloudss.win",
+      "server_port": 18741,
+      "selected": false
+    },
+    {
+      "method": "aes-256-cfb",
+      "password": "123456",
+      "remarks": "",
+      "server": "www.ryanqy.top",
+      "server_port": 1082,
+      "selected": true
+    },
+    {
+      "method": "aes-256-cfb",
+      "password": "123456",
+      "remarks": "",
+      "server": "localhost",
+      "server_port": 8388,
+      "selected": false
+    }
+  ],
+  "localPort": 1082,
+  "workers": 16,
+  "mode": "autoProxyMode"
+}
